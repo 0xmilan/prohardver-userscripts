@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           PH! forum right panel
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Fixes for Prohardver forum in dark mode
+@author         0xmilan
+@updateURL      https://raw.githubusercontent.com/0xmilan/prohardver-userscripts/main/PH_forum_right.user.css
+==/UserStyle== */
+@-moz-document domain("prohardver.hu") {
+    .card-forum .card-header {
+        background-color: #d9ae05;
+        color: #000;
+    }
+}
+
+@-moz-document domain("mobilarena.hu") {
+    .card-forum .card-header {
+        background-color: rgb(59, 133, 34);
+    }
+}
+
+@-moz-document domain("itcafe.hu") {
+    .card-forum .card-header {
+        background-color: #3b7aa4;
+    }
+}
+
+@-moz-document domain("gamepod.hu") {
+    .card-forum .card-header {
+        background-color: rgb(90, 97, 101);
+    }
+}
